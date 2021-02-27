@@ -18,13 +18,18 @@ To increase transparency and to be open as a company, we have a definition of Do
 
 ### Definition of Done for Task (DoDT)
 
-1. Working code
-2. UT with coverage >= 80% (including memory leaks tests when applicable)
-3. No findbugs warnings
-4. No check style warning
-5. Documentation
-6. No failed tests
-7. Commit and Push
+1. Working code. Thought about edgecases as well.
+2. No compilation warnings
+3. No findbugs / IDE warnings
+4. No check style warnings
+5. Formating according to team's standards
+6. Documentation (Deployment / Architecture / User Documentation / Important Information)
+7. No failed tests
+8. Commit and Push
+9. Tested on Dev Environment
+10. Deployed and tested on Test Environment
+
+Depending on the project, and how mission-critical is, we might add new rules. These could be Test Coverage, Memory Leaks Testing, UI Automated Testing, Profiling etc.
 
 ### Definition of Done for Review (DoDR)
 
